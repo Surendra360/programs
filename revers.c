@@ -2,7 +2,7 @@
 int main()
 {
     int n,rem,y=0,x;
-    printf("enter a num:");
+    printf("enter any number:");
     scanf("%d",&n);
     x=n;
     while(n>0)
@@ -12,10 +12,6 @@ int main()
         n=n/10;
 
     }
-    if(x==y)
-        printf("%d is equal to %d",x,y);
-    else
-        printf("%d is not equal to %d",x,y);
-
+   printf("reverse of given number is %d",y);
     return 0;
 }
